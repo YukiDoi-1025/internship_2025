@@ -61,3 +61,6 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "geocoder", "~> 1.8", ">= 1.8.5"
+gem "rails-i18n"

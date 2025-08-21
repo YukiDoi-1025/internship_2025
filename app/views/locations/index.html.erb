@@ -2,15 +2,15 @@
 
 <% content_for :title, "Locations" %>
 
-<h1>Locations</h1>
+<h1>住所一覧</h1>
 
 <div id="locations">
   <% @locations.each do |location| %>
     <%= render location %>
     <p>
-      <%= link_to "Show this location", location %>
+      <%= link_to "住所詳細を表示", location %>
     </p>
   <% end %>
 </div>
 
-<%= link_to "New location", new_location_path %>
+<%= link_to "新規作成", new_location_path %>
